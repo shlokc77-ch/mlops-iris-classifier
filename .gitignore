@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data files
+data/*.csv
+data/*.parquet
+
+# Trained models
+models/*.pkl
+models/*.joblib
+
+# ML experiment tracking
+mlruns/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
