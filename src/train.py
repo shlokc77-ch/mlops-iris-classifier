@@ -28,7 +28,7 @@ model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 
 # Print classification report
-print("Classification Report:")
+print("Model Classification Report:")
 print(classification_report(y_test, predictions))
 
 # Save trained model
